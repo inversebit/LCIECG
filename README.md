@@ -14,7 +14,10 @@ File structure and function
 The `arduino` folder contains a single .ino file which makes the arduino take a measurement every 2 milliseconds and sends it through the serial port.
 
 The rest of the folders compose an Android project. The structure is the usual one.
-Here's a quick list of the contents of each package:
+
+The `assets` folder contains the _.clp_ files which are used by the CLIPS expert system inside the app.
+
+Here's a quick list of the contents of each package inside the `src` folder:
 - `connection`: Contains the classes which establish and represent a Bluettoth connection
 - `data`: Here lie some classes with different functions: data structures and AsyncTasks to get data from the BT connection
 - `main`: The main Activity and the Fragments which are used in here are in this package. Diagnose is the class which represents the diganosing mechanism

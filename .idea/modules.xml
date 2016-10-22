@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LCIECG_AS.iml" filepath="$PROJECT_DIR$/LCIECG_AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" filepath="$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lCIECG/lCIECG.iml" filepath="$PROJECT_DIR$/lCIECG/lCIECG.iml" />
+    </modules>
+  </component>
+</project>

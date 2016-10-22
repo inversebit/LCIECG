@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2014 Alexander Mariel
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+-->
+<org.inversebit.proto01.main.FragmentNavigationDrawer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+	
+	<!-- The navigation drawer -->
+	<ListView android:id="@+id/lvDrawer"
+	    android:layout_width="240dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="start"
+	    android:choiceMode="singleChoice"
+	    android:divider="@android:color/darker_gray"
+	    android:dividerHeight="0dp"
+	    android:background="@android:color/background_light"
+	 />
+</org.inversebit.proto01.main.FragmentNavigationDrawer>
